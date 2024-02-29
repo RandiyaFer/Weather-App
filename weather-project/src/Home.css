@@ -1,0 +1,13 @@
+*{
+  background-color: white;
+}
+
+.card1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body h5{
+  color: white;
+}
