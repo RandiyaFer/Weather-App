@@ -1,13 +1,29 @@
-*{
-  background-color: white;
-}
-
-.card1{
+.outer-container {
   display: flex;
-  justify-content: center;
+  justify-content: center; 
   align-items: center;
+  width: 100%;
+  left: 10%;
+  position: relative;
 }
 
-.card-body h5{
-  color: white;
+.bgVideo{
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 80vh;
+  position: fixed;
 }
+
+.title{
+  text-shadow: 2px 2px #000000;
+  position: relative;
+  top: 10%;
+}
+.title2{
+  text-shadow: 2px 2px #000000;
+  position: relative;
+}
+.title3{
+  position: relative;
+}
+
