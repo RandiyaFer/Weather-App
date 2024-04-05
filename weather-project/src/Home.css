@@ -2,8 +2,6 @@
   display: flex;
   justify-content: center; 
   align-items: center;
-  width: 100%;
-  left: 10%;
   position: relative;
 }
 
@@ -12,18 +10,33 @@
   width: 100vw;
   height: 80vh;
   position: fixed;
+  right: 0;
 }
 
 .title{
   text-shadow: 2px 2px #000000;
   position: relative;
-  top: 10%;
+  /* top: 5%; */
 }
 .title2{
   text-shadow: 2px 2px #000000;
   position: relative;
+  top: 10%;
 }
 .title3{
   position: relative;
+}
+.title4{
+  position: relative;
+  justify-content: center; 
+  align-items: center;
+}
+
+.title5{
+  position: relative;
+  justify-content: center; 
+  align-items: center;
+color: white;
+font-size:small;
 }
 
